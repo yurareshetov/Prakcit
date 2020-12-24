@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8C8282"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1px"
+        android:layout_marginBottom="204dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:padding="1dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="#393939"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="bottom|right"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_AC"
+                style="@style/style_bkg1"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/btn_bool"
+                style="@style/style_bkg1"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/btn_procent"
+                style="@style/style_bkg1"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btn_div"
+                style="@style/style_bkgDO_it"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_seven"
+                style="@style/style_bkgNum"
+                android:text="7"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_eight"
+                style="@style/style_bkgNum"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn_nine"
+                style="@style/style_bkgNum"
+                android:text="9"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_umn"
+                style="@style/style_bkgDO_it"
+                android:text="*"
+                app:backgroundTint="#C37400" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_four"
+                style="@style/style_bkgNum"
+                android:text="4"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_five"
+                style="@style/style_bkgNum"
+                android:text="5"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/bnt_six"
+                style="@style/style_bkgNum"
+                android:text="6"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_minus"
+                style="@style/style_bkgDO_it"
+                android:text="-"
+                app:backgroundTint="#C37400" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_one"
+                style="@style/style_bkgNum"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/bnt_two"
+                style="@style/style_bkgNum"
+                android:text="2"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_three"
+                style="@style/style_bkgNum"
+                android:text="3"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_plus"
+                style="@style/style_bkgDO_it"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="10"
+                android:background="#BAAE9C"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp"
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_point"
+                style="@style/style_bkgNum"
+                android:text="."
+                app:backgroundTint="#BAAE9C" />
+
+            <Button
+                android:id="@+id/btn_answer"
+                style="@style/style_bkgDO_it"
+                android:text="="
+                app:backgroundTint="#C37400" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

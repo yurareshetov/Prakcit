@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_bkg1" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:background">#7C7575</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">56dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="style_bkgDO_it" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">#C37400</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">56dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="style_bkgNum" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">#BAAE9C</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">56dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+</resources>
